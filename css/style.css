@@ -1,0 +1,275 @@
+/* 房东 */
+body {
+	font-size: 0.15rem;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color:#333333;
+	font-size:0.13rem;
+}
+.nav-flex {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 100%;
+	padding: 0.05rem 0;
+}
+
+.nav-flex>li {
+	height: 0.7rem;
+}
+
+.nav-flex>li>a {
+	display: block;
+}
+
+.nav-flex>li>a>img {
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0 auto;
+}
+
+.owner-container {
+	width: 96%;
+
+	height: 2.5rem;
+}
+
+.owner-container img {
+	height: 100%;
+	width: 100%;
+}
+
+.owner-panel {
+	background: #2f2f2f;
+	height: 2.1rem;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 0.42rem;
+	box-sizing: border-box;
+	margin-bottom: 0.1rem;
+	font-weight: 500;
+}
+
+.owner-panel p {
+	margin: 0.07rem 0;
+	letter-spacing: 1px;
+}
+
+.owner-panel span {
+	font-size: 0.2rem;
+}
+
+.owner-panel img {
+	width: 0.7rem;
+	height: 0.7rem;
+	display: block;
+	margin: 0 auto;
+	border-radius: 100px;
+	margin-bottom: 0.1rem;
+}
+
+.back-public {
+	text-align: center;
+	background: #2f2f2f;
+	color: #FFFFFF;
+	height: 0.5rem;
+	font-size: 0.17rem;
+	position: relative;
+	line-height: 0.5rem;
+}
+
+.back-public .back {
+	position: absolute;
+	top: 0;
+	left: 0.1rem;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 0.14rem;
+}
+
+.nav-vic {
+	width: 96%;
+	margin: 0 auto;
+	border-top: 1px solid #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.2rem;
+}
+
+.nav-vic li {
+	height: 0.6rem;
+	font-size: 0.14rem;
+	width: 49%;
+	margin-top: 0.05rem;
+}
+
+.nav-vic li:nth-child(1) {
+	border-right: 1px solid #FFFFFF;
+}
+
+.nav-vic li h4 {
+	font-weight: normal;
+	margin: 0.1rem 0 0 0;
+	padding: 0;
+	height: 0.2rem;
+}
+
+.nav-vic li span {
+	font-size: 0.14rem;
+}
+
+
+/* 我的住户 */
+.theme-gray {
+	background: #f3f2f7;
+}
+
+.household-list {
+	padding: 0.1rem 0;
+}
+
+.household-item h4 {
+	margin: 0.05rem 0;
+}
+
+.household-item {
+	background: #FFFFFF;
+	border-radius: 5px;
+	width: 95%;
+	margin: 0 auto;
+	padding: 0.1rem;
+	box-sizing: border-box;
+	margin-bottom: 0.15rem;
+}
+
+.household-item p {
+	color: #9f9f9f;
+	margin: 0.09rem 0;
+	font-size: 0.14rem;
+}
+
+.household-runt {
+	color: #e6a263;
+}
+/* 我的房源 */
+.house-listitem-top {
+	display: flex;
+	padding: 0.1rem;
+	border-bottom: 1px solid #efefef;
+
+}
+
+.house-listitem-top div:nth-child(1) {
+	width: 2.1rem;
+	height: 1rem;
+}
+
+.house-listitem-top div:nth-child(1) img {
+	width: 100%;
+	height: 100%;
+}
+
+.house-listitem-top div:nth-child(2) {
+	margin-left: 0.05rem;
+	position: relative;
+}
+
+.house-listitem-top div:nth-child(2) p {
+	margin: 0.02rem;
+	font-size: 0.13rem;
+}
+
+.house-listitem {
+	background: #FFFFFF;
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+	border-radius: 5px;
+
+}
+
+.house-listitem p {
+	color: #9f9f9f;
+	margin: 0.05rem 0;
+}
+
+.house-listitem p.black {
+	color: #333333;
+	margin-top: 0 !important;
+	font-size: 0.14rem !important;
+}
+
+.house-listitem-bottom {
+	padding: 0.05rem 0.1rem;
+	font-size: 0.13rem;
+}
+.tag {
+	color: #FFFFFF;
+	/* color:#e6a263;
+	 border:1px solid #e6a263;*/
+	border-radius: 4px;
+	height: 0.2rem;
+	padding: 0rem 0.05rem;
+	margin-right: 0.02rem;
+	font-size: 0.12rem;
+	margin-left: 0.02rem;
+}
+.tag-orgin {
+	background: #ff1d1d;
+	
+}
+ .tag-green{  
+	 background:rgb(37, 155, 36);
+	
+}
+.tag-red{
+	color: #ff1d1d!important;
+	font-size:0.15rem;
+}
+.list-bottom {
+	position: absolute;
+	bottom: 0rem;
+	left: 0.05rem;
+	width: 100%;
+}
+
+.list-bottom .button {
+  background:#e6a263 ;
+	/* border:1px solid #ff1d1d; */
+	/* color: #ff1d1d; */
+	color: #FFFFFF;
+	height: 0.15rem;
+	line-height: 0.15rem;
+	padding: 0.05rem;
+	position: absolute;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 0.12rem;
+	padding:0.03rem 0.1rem;
+	bottom: -0.05rm;
+	right: 0.1rem;
+}
+.household-itemcontent {
+	display: flex;
+	border-top:1px solid #9f9f9f;
+}
+.household-itemcontent  p {
+	
+}
+.household-itemcontent  p:nth-child(1){
+	width:1.2rem;
+	
+}
+.household-itemcontent  p:nth-child(2) {
+	font-size: 0.13rem;
+	width: 4rem;
+}
